@@ -1,0 +1,49 @@
+yt link: https://www.youtube.com/watch?v=hgNMVZcL83o&list=PPSV
+tailwind css documentation: https://tailwindcss.com/docs/installation
+introduction
+
+benefits of using tailwind css is that we can easily style or customise
+our HTML elements without leaving HTML file with the help of the classes.
+
+it is not like bootstrap (adds a lot of extra code and filters to your website
+which can affects its performance and loading speed)
+
+
+using play cdn
+
+<script src="https://cdn.tailwindcss.com"></script>
+play CDN is used to test tailwind in tbe browser without requiring 
+any build steps and is not recommmended fo production
+
+
+
+
+how to install post css
+
+first install node js
+
+initialize npm init
+
+npm install -D tailwindcss postcss autoprefixer vite
+
+npx tailwindcss init -p
+
+provide path, write [*] in content, so that it will run all the filters
+
+add this in main css file
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+make your server in json
+u can name it whatever u want
+rename the "test"
+i named it ayush
+
+npm run ayush
+
+run the local host
+
+
+install the tailwindcss extension
+u can use ctrl+space to get suggestions
